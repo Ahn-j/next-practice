@@ -7,7 +7,7 @@ export default function Home({posts}) {
   return (
     <div>
       <HeadInfo title="My Blog"/>
-      <h1>Hi!!</h1>
+      <h1>Test Page!!</h1>
       <ul>
         {posts.map(post => (
           //console.log(post.title)
